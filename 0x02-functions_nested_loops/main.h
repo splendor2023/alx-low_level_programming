@@ -11,7 +11,3 @@ void jack_bauer(void);
  int add(int, int);
  void print_to_98(int n);
  void print_times_table(int n);
- void print_101-natural(int n);
- void print_102-fibonacci(int n);
- void print_103-fibonacci(int n);
- void print_104-fibonacci(int n);
