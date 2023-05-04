@@ -26,6 +26,6 @@ unsigned int binary_to_uint(const char *b)
 	return (0);
 	}
 
-	return (num);
+	return (len);
 
 }
