@@ -9,23 +9,23 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int len = 1;
-	unsigned int size = sizeof(n) * 8;
-	int found_one = 0;
+	int j, mask = 0;
+	unsigned long int len;
 
-	while (size--)
+	for (j = 63; j >= 0; j--)
 	{
-	if ((n & len) >> size)
+		len = n >> i;
+
+	if (len & 1)
 	{
 	_putchar('1');
-	found_one = 1;
-		}
-	else if (found_one || size == 0)
-	_putchar('0');
-
-	len <<= 1;
+	mask++;
 	}
-
-
+	else if (mask)
+	_putchar('0');
+	}
+	if (!mask)
+	_putchar('0');
 }
+
 
