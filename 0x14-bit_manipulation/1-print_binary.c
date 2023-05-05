@@ -26,6 +26,6 @@ void print_binary(unsigned long int n)
 	len <<= 1;
 	}
 
-	return;
+
 }
 
